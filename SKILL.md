@@ -1,11 +1,11 @@
 ---
 name: mixin-optional-dependency-linking
-description: 集成可选 Minecraft Mod 时，用 Stub + Conditional Mixin + MixinPlugin 把可选依赖隔离在类加载阶段。当需要安全调用一个「可能不存在」的 Mod API 时使用。
+description: 集成可选 Minecraft Mod 时，用 Stub + Conditional Mixin + MixinPlugin 以极低开销的方式，把可选依赖隔离在类加载阶段。当需要安全调用一个「可能不存在」的 Mod API 时使用。
 ---
 
 # Optional Mod Integration via Mixin
 
-将可选 Mod 的依赖隔离在 **Conditional Mixin Implementation** 中，把运行时分支前移到类转换阶段。
+将可选 Mod 的依赖隔离在 **Conditional Mixin Implementation** 中，把运行时分支前移到类转换阶段，以降低开销。
 
 ## 核心模式
 
