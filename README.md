@@ -1,6 +1,6 @@
 # mixin-optional-dependency-linking
 
-一个 Claude Code skill：在 Minecraft（Fabric）mod 开发中，安全集成一个「可选」的其他 mod 的 API。
+一个 Claude Code skill：在 Minecraft（Fabric）mod 开发中，以极低开销的方式，安全集成一个「可选」的其他 mod 的 API。
 
 核心思路：把对可选 Mod 的依赖全部隔离进 **Conditional Mixin Implementation**，用 Mixin 在**类加载阶段**的条件织入，替代运行时的 `isModLoaded` / 反射 / `instanceof` 判断。
 
