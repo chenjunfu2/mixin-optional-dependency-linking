@@ -31,7 +31,7 @@ Mixin Plugin 判断 Mod 是否加载
 ### 方式一：clone 到用户级 skills 目录
 
 ```bash
-git clone https://github.com/<你的用户名>/mixin-optional-dependency-linking.git \
+git clone https://github.com/chenjunfu2/mixin-optional-dependency-linking.git \
   ~/.claude/skills/mixin-optional-dependency-linking
 ```
 
@@ -40,7 +40,7 @@ git clone https://github.com/<你的用户名>/mixin-optional-dependency-linking
 把整个文件夹复制到 Claude Code 的用户级 skills 目录：
 
 - Linux / macOS：`~/.claude/skills/mixin-optional-dependency-linking`
-- Windows：`C:\Users\<你>\.claude\skills\mixin-optional-dependency-linking`
+- Windows：`C:\Users\<用户名>\.claude\skills\mixin-optional-dependency-linking`
 
 装好后重启 Claude Code，即可在需要集成可选 Mod 时被自动调用。
 
